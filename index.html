@@ -1,0 +1,259 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./build/styles.css" />
+    <title>Codewell Challenge #1</title>
+  </head>
+  <body>
+    <div class="bg-black text-white font-medium">
+      <div class="container mx-auto  md:w-9/12 w-full py-1.5 text-center">
+        <p class="text-sm md:text-base">
+          To celebrate Spense's launch, we will be waiving all fees for the entire
+          month of April.
+          <span class="underline"
+            >You will be receiving 100% of the earnings.</span
+          >
+        </p>
+      </div>
+     
+    </div>
+    <header class="bg-red-50">
+      <div class="container mx-auto md:w-9/12 w-full py-4 md:py-8"></div>
+        <nav class="text-right">
+          <div class="flex flex-row justify-between items-center">
+            <div class="font-bold text-lg">spense</div>
+            <div class="px-2.5 cursor-pointer md:hidden" id="burger">
+              <svg
+                width="24"
+                height="20"
+                viewBox="0 0 24 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M24 4H0V0H24V4ZM24 8H0V12H24V8ZM24 16H0V20H24V16Z"
+                  fill="black"
+                />
+              </svg>
+            </div>
+            <div class="md:block hidden">
+              <ul class="list-none md:flex md:flex-row font-medium">
+                <li class="px-2.5">Business</li>
+                <li class="px-2.5">Pricing</li>
+                <li class="px-2.5">Features</li>
+              </ul>
+            </div>
+            <div class="md:block hidden">
+              <button class="px-2.5 font-medium">Login</button>
+              <button class="px-6 py-3 bg-black text-white rounded font-medium">
+                Get Started
+              </button>
+            </div>
+          </div>
+          <div class="hidden bg-white rounded-lg mt-5" id="menu">
+            <ul class="list-none flex flex-col items-center font-medium">
+              <li class="py-2.5">Business</li>
+              <li class="py-2.5">Pricing</li>
+              <li class="py-2.5">Features</li>
+            </ul>
+          </div>
+        </nav>
+
+        <div
+          class="
+            grid
+            md:grid-cols-2 md:gap-x-4
+            grid-rows-2
+            gap-y-4
+            md:py-8
+            py-8
+          "
+        >
+          <div
+            class="
+              flex
+              md:justify-center
+              flex-col
+              order-last
+              md:order-first
+              p-0
+            "
+          >
+            <h1 class="md:text-5xl text-3xl font-bold text-gray-900 leading-tight mb-3">
+              Share your unfiltered thoughts. Get paid.
+            </h1>
+            <p class="text-sm text-gray-700 mb-1">
+              Spense is an open platform for indiviuals to share their
+              unfiltered thoughts.
+            </p>
+            <p class="text-sm text-gray-700">
+              Discuss the topics you love, and get paid for doing just that.
+            </p>
+            <ul
+              class="mt-2.5 list-check list-inside text-gray-700 font-semibold"
+            >
+              <li>Receive 99% off the earnings.</li>
+              <li>Get paid via Debut Card, ACH, or Paypal.</li>
+              <li>Withdraw your earnings anytime.</li>
+            </ul>
+            <div class="mt-6">
+              <input
+                type="text"
+                placeholder="john@example.com"
+                class="text-center rounded border border-gray-400 px-2 py-3"
+              />
+              <button class="px-6 py-3 bg-black text-white rounded font-medium">
+                Get Started
+              </button>
+            </div>
+          </div>
+
+          <div>
+            <picture>
+              <source
+                srcset="./Assets/Hero Image (Desktop).png"
+                media="(min-width: 960px)"
+              />
+              <img src="./Assets/Hero Image (Mobile).png" />
+            </picture>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section>
+      <div
+        class="
+          container
+          mx-auto
+          md:w-9/12
+          w-full
+          grid grid-cols-8
+          gap-x-4
+          py-8
+          items-center
+        "
+      >
+        <img src="./Assets/Facebook Logo.png" alt="" />
+        <img src="./Assets/Dribbble Logo.png" alt="" />
+        <img src="./Assets/Youtube Logo.png" alt="" />
+        <img src="./Assets/Pinterest Logo.png" alt="" />
+        <img src="./Assets/Twitter Logo.png" alt="" />
+        <img src="./Assets/Reddit Logo.png" alt="" />
+        <img src="./Assets/Google Logo.png" alt="" />
+        <img src="./Assets/Slack Logo.png" alt="" />
+      </div>
+    </section>
+
+    <section
+      class="
+      container
+      mx-auto 
+        md:w-9/12
+        w-full
+        bg-red-50
+        rounded-lg
+        md:px-[75px]
+        px-[55px]
+        p-0
+      "
+    >
+      <div class="grid md:grid-cols-2 md:gap-x-4 grid-rows-2 gap-y-2 rounded">
+        <div class="flex justify-center flex-col">
+          <h1 class="md:text-[48px] text-[38px] font-bold leading-tight mb-2">
+            Secure your money with Escrow.
+          </h1>
+          <p class="text-gray-700 mb-3">
+            Spense uses Escrow to secure all the payments. We believe Escrow
+            offers the heigest level of security for your payments, soyou never
+            need to worry about scams.
+          </p>
+          <a href="#" class="underline font-semibold text-gray-700">
+            Learn more about Escrow
+          </a>
+        </div>
+        <div class="text-right">
+          <picture>
+            <source
+              srcset="./Assets/Phone Mockup (Desktop).png"
+              media="(min-width: 960px)"
+            />
+            <img src="./Assets/Phone Mockup (Mobile).png" />
+          </picture>
+        </div>
+      </div>
+    </section>
+    <section class="container mx-auto md:w-9/12 w-full my-8">
+      <div class="grid md:grid-cols-2 md:gap-x-4 grid-rows-2 gap-y-2 rounded">
+        <div>
+          <img src="./Assets/Text Editor.png" />
+        </div>
+        <div
+          class="flex md:justify-center flex-col order-first md:order-last p-0"
+        >
+          <h1 class="md:text-[33px] text-[31px] font-bold">A text editor like no other.</h1>
+          <p class="text-gray-700 my-3">
+            Our text editor pulls you into focus mode with it's simplistic
+            design and usability so you can put out your best writings.
+          </p>
+          <a href="#" class="underline font-semibold text-gray-700">
+            Text Editor Live Demo
+          </a>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-black text-white">
+      <div class="container mx-auto md:w-9/12 w-full py-8">
+        <div
+          class="
+            grid
+            lg:grid-cols-6
+            md:grid-cols-4
+            grid-cols-2
+            md:gap-x-0.5
+            sm:gap-0.5
+          "
+        >
+          <div class="col-span-2">
+            <h3 class="text-xl font-medium">spense.</h3>
+            <p class="text-gray-400 text-sm my-2 pr-8">
+              Spense is an open platform for indiviuals to share their
+              unfiltered thoughts. Discuss the topics you love, and get paid for
+              doing just that.
+            </p>
+          </div>
+          <div>
+            <h3 class="text-base font-medium">Sitemap</h3>
+            <ul class="text-gray-400 text-sm">
+              <li class="my-2">Homepage</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-base font-medium">Resources</h3>
+            <ul class="text-gray-400 text-sm">
+              <li class="my-2">Support</li>
+              <li class="my-2">Contact</li>
+              <li class="my-2">FAQ</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-base font-medium">Company</h3>
+            <ul class="text-gray-400 text-sm">
+              <li class="my-2">About</li>
+              <li class="my-2">Customers</li>
+              <li class="my-2">Blog</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-base font-medium">Opportunities</h3>
+            <ul class="text-gray-400 text-sm">
+              <li class="my-2">Jobs</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
